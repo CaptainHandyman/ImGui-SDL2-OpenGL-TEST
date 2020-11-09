@@ -1,7 +1,7 @@
 CC = g++
 LIBS = -lSDL2 \
 	   -lGL \
-	   `sdl-config --cflags --libs`
+	   `sdl2-config --cflags --libs`
 CPP_FILES = *.cpp
 OUTPUT = Constructor
 
